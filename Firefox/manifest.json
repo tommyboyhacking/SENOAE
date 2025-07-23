@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "SENOAE",
+  "version": "1.0",
+
+  "description": "An extension that allows you to do searches on Google with the AI automatically disabled.",
+
+  "icons": {
+     "16": "icons/icon16.png",
+     "32": "icons/icon32.png",
+     "48": "icons/icon48.png",
+     "128": "icons/icon128.png"
+    },
+
+  "permissions": [
+    "<all_urls>",
+    "activeTab",
+    "tabs",
+    "webRequest"
+  ],
+
+  "browser_action": {
+      "default_popup":"popup.html"
+    },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.mozilla.org/*"],
+      "js": ["/main.js"]
+    }
+  ]
+}
+
