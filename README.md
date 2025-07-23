@@ -26,6 +26,6 @@ https://github.com/user-attachments/assets/71306171-9e50-4c5b-99f5-7ab4ba3806ae
 
 Boom, searches
 
-To get this set up on Firefox. just close the repo as is, go to `about:debugging` in your Firefox browser, then load temporary add on and select any random file in the directory. 
+To get this set up on Firefox. just clone the repo as is, go to `about:debugging` in your Firefox browser, then load temporary add on and select any random file in the directory. 
 
 It will disappear once Firefox is closed because it is not an official extension. 
